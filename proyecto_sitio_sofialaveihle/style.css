@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(30,19,12);
+    background: linear-gradient(90deg, rgb(59, 38, 24) 0%, rgba(154,132,120,1) 100%);
+    font-family: 'Inria Serif';
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px 10px 60px;
+}
+
+nav>a{
+    color:black;
+    font-size: 16px;
+}
+
+
+h1{
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    /*background-color: rgb(255, 255, 255, 0.5);*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  /*o between*/
+    text-align: center;
+    flex-direction: row;
+    max-width: 870px;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.2);
+    border-width: 10px;
+    transform: all 300ms;
+}
+
+img:hover{
+    /* background-color: rgba(0, 0, 0, 50%);*/
+    transform: scale(1.1);
+}
+
+p{
+    margin: 10px 0px 40px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer>div>p{
+    font-size: 16px;
+
+}
